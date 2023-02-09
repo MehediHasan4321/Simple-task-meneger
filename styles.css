@@ -1,0 +1,13 @@
+.task-box{
+    width: 360px;
+    height: 150px;
+    background-color: lightblue;
+    text-align: left;
+   
+    border-radius: 5px;
+}
+.icon{
+   display: flex;
+   justify-content: right;
+   padding-right: 8px;
+}
