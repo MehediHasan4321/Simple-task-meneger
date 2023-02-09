@@ -1,4 +1,4 @@
-.task-box{
+.task-box {
     display: flex;
     width: 360px;
     height: 150px;
@@ -7,17 +7,23 @@
     border-radius: 5px;
     color: black;
 }
-.task-box p{
+
+.task-box p {
     padding: 10px;
 }
-span{
-   margin-left: auto;
-   padding: 5px 5px 0 0;
+
+span {
+    margin-left: auto;
+    padding: 5px 5px 0 0;
 }
-span i{
+
+span i {
     color: red;
 }
-.task-controler-div{
+
+.task-controler-div {
+    display: flex;
+    align-items: center;
     width: 360px;
     height: 50px;
     background-color: rgba(0, 0, 0, .5);
@@ -26,16 +32,43 @@ span i{
     border-radius: 0 0 5px 5px;
     visibility: hidden;
 }
-.color-box{
+
+.color-box {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 8px;
-    padding: 12px 0 0 10px;
+
 }
-.color-div{
+
+.color-div {
     width: 25px;
     height: 25px;
-   border-radius: 50%;
-   
+    border-radius: 50%;
+
+}
+
+.edit-btn {
+    margin-left: auto;
+}
+
+.edit-btn i {
+    color: #ccc;
+    font-size: 25px;
+    padding-right: 10px;
+
+}
+
+.text-area {
+    resize: none;
+    position: absolute;
+    border: none;
+    font-size: 18px;
+    background-color: #e6e0e0;
+    padding: 5px;
+    outline: none;
+    width: 360px;
+    height: 150px;
+    border-radius: 5px;
+
 }
